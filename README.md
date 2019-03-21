@@ -35,6 +35,13 @@ print(output)
 ```
 
 
+```
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.plot(output)
+```
+
+
 
 # List Func
 
@@ -47,3 +54,5 @@ print (talib.get_functions())
 # dict of functions by group
 print( talib.get_function_groups())
 ```
+
+
